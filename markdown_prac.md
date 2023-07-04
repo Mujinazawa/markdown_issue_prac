@@ -58,10 +58,29 @@
 
 アオイ[あおい](https://www.youtube.com/channel/UCkkxn2ldlFUMupTlXU8meAw)
 
-[考える人最高～](images/%E8%80%83%E3%81%88%E3%82%8B%E4%BA%BA.jpg)
+# 画像リンク
 
-# 協調
+![考える人最高～](images/%E8%80%83%E3%81%88%E3%82%8B%E4%BA%BA.jpg)
+
+# 強調
 
 考える*人*最高～
 
 考える**人**最高～
+
+# コード
+~~~PHP
+public static void main(string[]){
+    system.out.println("hello kanngaeru");
+}
+~~~
+
+# 水平線
+***
+
+# 表
+
+|見出し1|見出し2 |
+| -- | -- |
+| 内容1-1 | 内容2-1|
+| **内容1-2** | **内容2-2** |
