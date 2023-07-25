@@ -46,3 +46,76 @@ sequenceDiagram
 引用元のサイトはこちら
 >https://usefuledge.com/vscodemermaidsupport.html#toc6
 
+3. フローチャート
+~~~
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+~~~
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+4. ガントチャート
+~~~
+```mermaid
+gantt
+dateFormat  YYYY-MM-DD
+title ガントチャートのサンプル
+excludes weekdays 2014-01-10
+
+section A section
+完了したタスク            :done,    des1, 2022-07-06,2022-07-08
+アクティブなタスク        :active,  des2, 2022-07-09, 3d
+未来のタスク              :         des3, after des2, 5d
+別な未来のタスク          :         des4, after des3, 5d
+```
+~~~
+```mermaid
+gantt
+dateFormat  YYYY-MM-DD
+title ガントチャートのサンプル
+excludes weekdays 2014-01-10
+
+section A section
+完了したタスク            :done,    des1, 2022-07-06,2022-07-08
+アクティブなタスク        :active,  des2, 2022-07-09, 3d
+未来のタスク              :         des3, after des2, 5d
+別な未来のタスク          :         des4, after des3, 5d
+```
+5. Gitグラフ
+~~~
+```mermaid
+   gitGraph
+       commit
+       commit
+       branch develop
+       commit
+       commit
+       commit
+       checkout main
+       commit
+       commit
+```
+~~~
+```mermaid
+   gitGraph
+       commit
+       commit
+       branch develop
+       commit
+       commit
+       commit
+       checkout main
+       commit
+       commit
+```
+引用元のサイトはこちら
+>https://notepm.jp/help/mermaid
